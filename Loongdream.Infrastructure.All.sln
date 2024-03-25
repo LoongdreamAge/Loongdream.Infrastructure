@@ -1,8 +1,29 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Loongdream.Infrastructure.Common", "Loongdream.Infrastructure.Common", "{9710182F-682A-4CE8-8755-EB75DB73D974}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Loongdream.Infrastructure.Injection", "Loongdream.Infrastructure.Injection", "{810B8440-FBA9-4B6F-A69A-FBC242DCA3AE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Loongdream.Infrastructure.Extensions", "Loongdream.Infrastructure.Extensions", "{FA4AD4F6-6377-4FEE-8810-245DCEE872DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Loongdream.Infrastructure.Storage", "Loongdream.Infrastructure.Storage", "{2D138663-996C-4D6B-B2B7-F421A2035BBA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Loongdream.Infrastructure", "Loongdream.Infrastructure", "{B0D710A4-BB53-415D-8683-8F6636153529}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loongdream.Infrastructure.Common", "Loongdream.Infrastructure.Common\Loongdream.Infrastructure.Common.csproj", "{FAD3735C-9CB4-47D8-9D3B-DA3628C49727}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FAD3735C-9CB4-47D8-9D3B-DA3628C49727} = {9710182F-682A-4CE8-8755-EB75DB73D974}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAD3735C-9CB4-47D8-9D3B-DA3628C49727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAD3735C-9CB4-47D8-9D3B-DA3628C49727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAD3735C-9CB4-47D8-9D3B-DA3628C49727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAD3735C-9CB4-47D8-9D3B-DA3628C49727}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
