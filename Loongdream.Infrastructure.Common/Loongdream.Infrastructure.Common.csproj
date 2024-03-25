@@ -12,6 +12,7 @@
         <PackageTags>Loongdream Infrastructure Common</PackageTags>
         <IconUrl>http://qiniusource.loongdream.com/%E9%BE%99%E7%8F%A0-nBD3mi%20%28512%29.png</IconUrl>
         <PackageIcon>baseIcon.png</PackageIcon>
+        <Version>1.0.1</Version>
     </PropertyGroup>
 
     <ItemGroup>
