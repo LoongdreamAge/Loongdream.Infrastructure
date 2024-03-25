@@ -1,8 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFrameworks>net45;netstandard2.0;net6;net8.0</TargetFrameworks>
-        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <TargetFrameworks>net8.0;netstandard2.0;net45;net6.0;net7.0</TargetFrameworks>
         <Title>Loongdream基础库之无依赖部分</Title>
         <Authors>daohunliwei</Authors>
         <Description>Loongdream旗下简易自用库：无依赖基础部分</Description>
@@ -10,6 +9,17 @@
         <RepositoryUrl>https://github.com/LoongdreamAge/Loongdream.Infrastructure.git</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <Company>Loongdream</Company>
+        <PackageTags>Loongdream Infrastructure Common</PackageTags>
+        <IconUrl>http://qiniusource.loongdream.com/%E9%BE%99%E7%8F%A0-nBD3mi%20%28512%29.png</IconUrl>
+        <PackageIcon>baseIcon.png</PackageIcon>
     </PropertyGroup>
+
+    <ItemGroup>
+      <None Include="..\OtherFiles\Icons\baseIcon.png">
+        <Pack>True</Pack>
+        <PackagePath></PackagePath>
+        <Link>baseIcon.png</Link>
+      </None>
+    </ItemGroup>
 
 </Project>
