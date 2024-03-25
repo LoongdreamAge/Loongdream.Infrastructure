@@ -28,4 +28,6 @@ jobs:
         run: dotnet pack -c Release --output nupkgs
       - name: List File
         run: ls ./nupkgs
+      - name: Publish
+        run: dotnet nuget push "*.nupkg" -s ./nupkgs --skip-duplicate -k ${{secrets.NUGET_API_KEY}}
     
